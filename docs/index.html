@@ -2,24 +2,70 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>2024オープンキャンパス</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
-pre code {
-  padding: 10px;
-  border: 1px solid grey;
-  font-family: monospace;
-}
+
     </style>
   </head>
   <body>
-    <h1 id="オープンキャンパス">2024オープンキャンパス</h1>
-    <p><a href="https://www.hi-tech.ac.jp/">八戸工業大学</a>工学部工学科 <a
-    href="https://www.info.hi-tech.ac.jp/">システム情報工学コース</a></p>
-    <h2 id="画像生成aiのプロンプト例">画像生成AIのプロンプト例</h2>
-    <p>flying battle ship, castle in sky(空飛ぶ戦艦, 空中の城)</p>
-    <h3 id="google-colaboratoryの場合">Google Colaboratoryの場合</h3>
-    <pre><code>flying battle ship, castle in sky</code></pre>
-    <h3 id="ローカルコンピュータの場合">ローカルコンピュータの場合</h3>
-    <pre><code>&lt;lora:lcm-lora-sdv1-5:1&gt; flying battle ship, castle in sky</code></pre>
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">八戸工業大学 工学部 工学科 システム情報工学コース</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container mt-5 pt-3">
+      <h1>2024オープンキャンパス</h1>
+      <p class="fs-2">もしもアプリを終了したり、プロンプトを消した場合</p>
+      <div class="card">
+        <div class="card-body">
+          <h2>画像生成AIのプロンプト例</h2>
+          <p class="fs-5">flying battle ship, castle in sky (空飛ぶ戦艦, 空中の城)</p>
+          <h3 class="mt-4">Google Colaboratoryの場合</h3>
+          <div class="card">
+            <div class="card-body">
+              <pre><code class="fs-6">flying battle ship, castle in sky</code></pre>
+            </div>
+          </div>
+          <h3 class="mt-4">ローカルコンピュータの場合</h3>
+          <div class="card">
+            <div class="card-body">
+              <pre><code class="fs-6"><span style="color: blue;">&lt;lora:lcm-lora-sdv1-5:1&gt;</span> flying battle ship, castle in sky</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mt-3">
+        <div class="card-body">
+          <h2>アプリの起動</h2>
+          <h3 class="mt-4">Google Colaboratoryの場合</h3>
+          <div class="card">
+            <div class="card-body">
+              <ol class="fs-5">
+                <li>この<a href="https://colab.research.google.com/" target="_blank">リンク</a>をクリック</li>
+                <li>「fooocus_colab.ipynb」を選択</li>
+                <li>実行ボタンを一つずつクリック</li>
+                <li>「Running on public URL:」のURLの部分をクリック</li>
+              </ol>
+            </div>
+          </div>
+          <h3 class="mt-4">ローカルコンピュータの場合</h3>
+          <div class="card">
+            <div class="card-body">
+              <ol class="fs-5">
+                <li>タスクバーのAUTOMATIC 1111のアイコンをクリック<br>
+                <img src="a1111-icon.png" alt=""></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
