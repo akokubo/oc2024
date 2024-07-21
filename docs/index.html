@@ -21,28 +21,9 @@
 
     <div class="container mt-5 pt-3">
       <h1>2024オープンキャンパス</h1>
-      <p class="fs-2">もしもアプリを終了したり、プロンプトを消した場合</p>
-      <div class="card">
-        <div class="card-body">
-          <h2>画像生成AIのプロンプト例</h2>
-          <p class="fs-5">flying battle ship, castle in sky (空飛ぶ戦艦, 空中の城)</p>
-          <h3 class="mt-4">Google Colaboratoryの場合</h3>
-          <div class="card">
-            <div class="card-body">
-              <pre><code class="fs-6">flying battle ship, castle in sky</code></pre>
-            </div>
-          </div>
-          <h3 class="mt-4">ローカルコンピュータの場合</h3>
-          <div class="card">
-            <div class="card-body">
-              <pre><code class="fs-6"><span style="color: blue;">&lt;lora:lcm-lora-sdv1-5:1&gt;</span> flying battle ship, castle in sky</code></pre>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="card mt-3">
         <div class="card-body">
-          <h2>アプリの起動</h2>
+          <h2>画像生成AIの起動</h2>
           <h3 class="mt-4">Google Colaboratoryの場合</h3>
           <div class="card">
             <div class="card-body">
@@ -58,11 +39,139 @@
           <div class="card">
             <div class="card-body">
               <ol class="fs-5">
-                <li>タスクバーのAUTOMATIC 1111のアイコンをクリック<br>
+                <li>画面下のタスクバーのAUTOMATIC 1111のアイコンをクリック<br>
                 <img src="a1111-icon.png" alt=""></li>
               </ol>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="card mt-3">
+        <div class="card-body">
+          <h2>画像生成AIのプロンプト例</h2>
+          <p class="fs-5">flying battle ship, castle in sky (空飛ぶ戦艦, 空中の城)</p>
+          <h3 class="mt-4">Google Colaboratoryの場合</h3>
+          <div class="card">
+            <div class="card-body">
+              <pre><code class="fs-6">flying battle ship, castle in sky</code></pre>
+            </div>
+          </div>
+          <h3 class="mt-4">ローカルコンピュータの場合</h3>
+          <div class="card">
+            <div class="card-body">
+              <pre><code class="fs-6"><span style="color: blue;">&lt;lora:lcm-lora-sdv1-5:1&gt;</span> flying battle ship, castle in sky</code></pre>
+            </div>
+          </div>
+          <p><code class="fs-6"><span style="color: blue;">&lt;lora:lcm-lora-sdv1-5:1&gt;</span></code>は爆速化の指定</p>
+        </div>
+      </div>
+
+      <div class="card mt-3">
+        <div class="card-body">
+          <h2>画像生成AIのプロンプトの書き方</h2>
+          <p class="fs-5">画風 + 生成したいもの + その補足 + 追加情報</p>
+          <h3>画風</h3>
+          <ul>
+            <li>high quality (高画質)</li>
+            <li>photo (写真)</li>
+            <li>cinematic (映画風)</li>
+            <li>painting (油絵)</li>
+            <li>anime (アニメ)</li>
+          </ul>
+          <h3>その補足</h3>
+          <ul>
+            <li>portrait (肖像)</li>
+            <li>full body (全身)</li>
+            <li>〜 hair (髪型)</li>
+            <li>moonlight (月夜)</li>
+            <li>backlight (逆光)</li>
+          </ul>
+          <h3>追加情報</h3>
+          <ul>
+            <li>masterpice (名作)</li>
+            <li>Nikon D6 (一眼レフ)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card mt-5">
+        <div class="card-body">
+          <h2>文章生成AIの起動</h2>
+          <div class="card-body">
+            <ol class="fs-5">
+              <li>画面下のタスクバーのLM Studioのアイコンをクリック<br>
+                <img src="lmstudio-icon.png" alt=""></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-3">
+        <div class="card-body">
+          <h2>文章生成AIのプロンプト例</h2>
+          <ul>
+            <li>こんにちは</li>
+            <li>ELYZA JP 7Bの7Bは何ですか？</li>
+            <li>billionっていくつですか？</li>
+            <li>ELYZAってどういう意味？</li>
+            <li>大規模言語モデルって何？</li>
+            <li>ELYZAを使うと何ができますか？</li>
+            <li>ぼくは日本の高校生です。ELYZAを何に使ったらいいでしょうか？</li>
+            <li>でも、ELYZAの返答をそのまま使ったら、カンニングですよね？</li>
+            <li>ELYZAの返答を参考にすることと、返答をそのまま使うことの違いははっきりしないと思います。ぼくが成長するには、どういふうに使ったらいいですか？</li>
+            <li>
+              <pre style="border: 1px solid gray;">
+#状況
+ぼくは高校生です。
+高校の授業で、大学を訪問して大学の先生の講演を聞きました。
+レポートを高校に提出する必要があります。
+
+#講演の内容
+「生成AIで何ができるか」
+1. AIのしくみ
+2. 画像生成AIのしくみとStable Diffusionの体験
+3. 文章生成AIのしくみとELYZA JPの体験
+4. 生成AIに関する問題
+5. AIを活用できる人になるために
+
+#お願い
+レポートの目次を作ってください</pre>
+            </li>
+
+            <li>画像生成AIとは何ですか？</li>
+            <li>Stable Diffusionについて教えて</li>
+            <li>Stable Diffusionはどういうしくみで画像を生成しますか？</li>
+            <li>
+              <pre style="border: 1px solid gray;">
+#状況
+Stable Diffusionを利用して画像を生成している
+
+#生成したい画像
+日本
+3つの神社の合同の夏祭り
+夕方
+人形を山車に載せて街中を参加者が引っ張って移動
+
+#依頼
+Stable Diffusionに与えるpromptを英語で作ってください</pre>
+            </li>              
+              
+            <li>
+              <pre style="border: 1px solid gray;">
+#状況
+Stable Diffusionを利用して画像を生成している
+
+#生成したい画像
+巨大なロボットと怪獣が戦っている
+怪獣は日本の特撮に出てくるような姿をしていて、口から炎を吐いている
+ロボットはかっこよくスマートで剣を構えて怪獣に切りかかっている
+
+#依頼
+Stable Diffusionに与えるpromptを英語で作ってください</pre>
+            </li>    
+          </ul>
+
         </div>
       </div>
     </div>
